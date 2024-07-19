@@ -1,3 +1,4 @@
+import React from "react";
 import { Card as CardType } from "../types/Card";
 
 const Card = ({ logo, title, isConnected }: CardType) => {
