@@ -2,6 +2,8 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import Girl from "../public/Girl";
 import { Environment, OrbitControls } from "@react-three/drei";
+import Hassany from "../public/Hassany";
+import GLBScene from "../public/GLBScene";
 
 const App = () => {
   return (
@@ -16,7 +18,9 @@ const App = () => {
         />
 
         <Suspense fallback={null}>
-          <Girl />
+          {/* <Girl /> */}
+          {/* <Hassany /> */}
+          <GLBScene url="/head.glb" /> {/* change the url here */}
         </Suspense>
         <directionalLight position={[0, 5, 5]} intensity={0.8} />
 
