@@ -14,11 +14,11 @@ const App = () => {
         <img src="/sample.jpg" alt="" style={{ width: "400px" }} />
         <div
           style={{
-            width: "80px",
-            height: "80px",
+            width: "60px",
+            height: "60px",
             position: "absolute",
-            top: 230,
-            left: 155,
+            top: 235,
+            left: 165,
           }}
         >
           <Avatar />
@@ -26,11 +26,11 @@ const App = () => {
 
         <div
           style={{
-            width: "60px",
-            height: "60px",
+            width: "50px",
+            height: "50px",
             position: "absolute",
             top: 375,
-            left: 248,
+            left: 252,
           }}
         >
           <Avatar />

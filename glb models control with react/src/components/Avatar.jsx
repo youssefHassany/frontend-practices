@@ -11,7 +11,7 @@ const Avatar = () => {
       <Canvas camera={{ position: [0, 1.5, 2.5], fov: 8 }}>
         <ambientLight intensity={0.5} />
         <OrbitControls
-          target={[0, 1.6, 0]}
+          target={[0, 1.68, 0]}
           minDistance={1}
           maxDistance={5}
           maxPolarAngle={Math.PI / 2} // Prevent looking from below
