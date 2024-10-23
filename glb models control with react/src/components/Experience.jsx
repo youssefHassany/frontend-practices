@@ -1,12 +1,12 @@
 import { OrbitControls } from "@react-three/drei";
-import Avatar from "./Avatar";
+import AvatarBackup from "./AvatarBackup";
 
 export const Experience = () => {
   return (
     <>
       <OrbitControls />
       <group position-y={-1}>
-        <Avatar />
+        <AvatarBackup />
       </group>
       <ambientLight intensity={1} />
     </>
